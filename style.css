@@ -11,6 +11,9 @@ header{
     align-items:center;
     padding:20px 40px;
     background:#111827;
+    position:sticky;
+    top:0;
+    z-index:1000;
 }
 
 .logo{
@@ -37,7 +40,7 @@ nav a{
     color:white;
     text-decoration:none;
     font-weight:bold;
-    transition:0.3s;
+    transition:.3s;
 }
 
 nav a:hover{
@@ -61,21 +64,21 @@ nav a:hover{
 }
 
 .hero h1{
-    font-size:48px;
-    margin-bottom:10px;
+    font-size:56px;
+    margin-bottom:15px;
 }
 
 .hero p{
-    font-size:20px;
-    color:#cbd5e1;
+    font-size:22px;
+    color:#e2e8f0;
     max-width:700px;
     margin:auto;
 }
 
 .button{
     display:inline-block;
-    margin-top:20px;
-    padding:15px 30px;
+    margin-top:25px;
+    padding:15px 35px;
     background:#38bdf8;
     color:white;
     text-decoration:none;
@@ -86,32 +89,47 @@ nav a:hover{
 
 .button:hover{
     background:#0ea5e9;
+    transform:scale(1.05);
 }
 
 .title{
     text-align:center;
-    margin-top:40px;
+    margin:50px 0 20px;
+    font-size:34px;
+}
+
+input{
+    width:80%;
+    max-width:500px;
+    padding:15px;
+    margin-top:25px;
+    border:none;
+    border-radius:10px;
+    font-size:18px;
+    text-align:center;
+    outline:none;
 }
 
 .cards{
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
-    gap:20px;
+    gap:25px;
     padding:40px;
 }
 
 .card{
-    width:250px;
+    width:260px;
     background:#1e293b;
     padding:20px;
-    border-radius:15px;
-    transition:.3s;
+    border-radius:18px;
     text-align:center;
+    transition:.3s;
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
 }
 
 .card:hover{
-    transform:translateY(-8px);
+    transform:translateY(-10px);
     background:#334155;
 }
 
@@ -123,20 +141,25 @@ nav a:hover{
     margin-bottom:15px;
 }
 
+.card h2{
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#cbd5e1;
+}
+
 .card-link{
     text-decoration:none;
     color:white;
 }
 
-input{
-    width:80%;
-    max-width:500px;
-    padding:15px;
-    margin-top:20px;
-    border:none;
-    border-radius:10px;
-    font-size:18px;
+footer{
+    background:#111827;
     text-align:center;
+    padding:30px;
+    margin-top:60px;
+    color:#94a3b8;
 }
 
 @media (max-width:768px){
@@ -179,8 +202,24 @@ nav a{
 }
 
 .hero h1{
-    font-size:38px;
+    font-size:40px;
 }
 
 .hero p{
-    font-size:18
+    font-size:18px;
+}
+
+.cards{
+    padding:20px;
+}
+
+.card{
+    width:100%;
+    max-width:340px;
+}
+
+input{
+    width:90%;
+}
+
+}
