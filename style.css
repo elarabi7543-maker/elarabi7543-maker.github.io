@@ -50,7 +50,7 @@ nav a:hover{
 .hero{
     background:
     linear-gradient(rgba(15,23,42,.65),rgba(15,23,42,.65)),
-    url("file_0000000097dc7243b2d6183022056e55.png");
+    url("hero.jpg");
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
