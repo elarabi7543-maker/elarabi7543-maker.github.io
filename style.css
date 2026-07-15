@@ -19,10 +19,23 @@ header{
     color:#38bdf8;
 }
 
+.menu-btn{
+    display:none;
+    background:none;
+    border:none;
+    color:white;
+    font-size:30px;
+    cursor:pointer;
+}
+
+nav{
+    display:flex;
+    gap:20px;
+}
+
 nav a{
     color:white;
     text-decoration:none;
-    margin-left:20px;
     font-weight:bold;
 }
 
@@ -39,6 +52,8 @@ nav a{
 .hero p{
     font-size:20px;
     color:#cbd5e1;
+    max-width:700px;
+    margin:auto;
 }
 
 .button{
@@ -50,6 +65,11 @@ nav a{
     text-decoration:none;
     border-radius:12px;
     font-weight:bold;
+}
+
+.title{
+    text-align:center;
+    margin-top:30px;
 }
 
 .cards{
@@ -66,6 +86,7 @@ nav a{
     padding:20px;
     border-radius:15px;
     transition:0.3s;
+    text-align:center;
 }
 
 .card:hover{
@@ -73,12 +94,7 @@ nav a{
     background:#334155;
 }
 
-.title{
-    text-align:center;
-    margin-top:40px;
-}
-
-@media (@media (max-width:768px){
+@media (max-width:768px){
 
 header{
     flex-direction:column;
@@ -86,22 +102,24 @@ header{
     padding:20px;
 }
 
+.logo{
+    margin-bottom:15px;
+    font-size:38px;
+}
+
+.menu-btn{
+    display:block;
+    margin-bottom:15px;
+}
+
 nav{
-    display:flex;
     flex-wrap:wrap;
     justify-content:center;
     gap:12px;
-    margin-top:15px;
 }
 
 nav a{
-    margin:0;
     font-size:18px;
-}
-
-.logo{
-    font-size:42px;
-    margin-bottom:15px;
 }
 
 .hero{
@@ -109,21 +127,11 @@ nav a{
 }
 
 .hero h1{
-    font-size:42px;
-    line-height:1.2;
+    font-size:38px;
 }
 
 .hero p{
     font-size:18px;
-}
-
-.button{
-    width:220px;
-    text-align:center;
-}
-
-.cards{
-    padding:20px;
 }
 
 .card{
@@ -131,42 +139,4 @@ nav a{
     max-width:340px;
 }
 
-}){
-
-header{
-    flex-direction:column;
-    padding:20px;
-}
-
-nav{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    margin-top:15px;
-}
-
-nav a{
-    margin:8px;
-}
-
-.logo{
-    font-size:40px;
-}
-
-.hero h1{
-    font-size:56px;
-}
-
-.cards{
-    padding:20px;
-}
-
-.card{
-    width:100%;
-    max-width:320px;
-}
-
-}
-.menu-btn{
-    display:none;
 }
