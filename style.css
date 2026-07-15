@@ -24,7 +24,7 @@ header{
     background:none;
     border:none;
     color:white;
-    font-size:30px;
+    font-size:32px;
     cursor:pointer;
 }
 
@@ -69,7 +69,7 @@ nav a{
 
 .title{
     text-align:center;
-    margin-top:30px;
+    margin-top:40px;
 }
 
 .cards{
@@ -103,8 +103,8 @@ header{
 }
 
 .logo{
-    margin-bottom:15px;
     font-size:38px;
+    margin-bottom:15px;
 }
 
 .menu-btn{
@@ -113,9 +113,15 @@ header{
 }
 
 nav{
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:12px;
+    display:none;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+    width:100%;
+}
+
+nav.show{
+    display:flex;
 }
 
 nav a{
@@ -134,24 +140,13 @@ nav a{
     font-size:18px;
 }
 
+.cards{
+    padding:20px;
+}
+
 .card{
     width:100%;
     max-width:340px;
-}
-
-}
-@media (max-width:768px){
-
-nav{
-    display:none;
-}
-
-nav.show{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    gap:15px;
-    margin-top:15px;
 }
 
 }
