@@ -78,7 +78,60 @@ nav a{
     margin-top:40px;
 }
 
-@media (max-width:768px){
+@media (@media (max-width:768px){
+
+header{
+    flex-direction:column;
+    text-align:center;
+    padding:20px;
+}
+
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:12px;
+    margin-top:15px;
+}
+
+nav a{
+    margin:0;
+    font-size:18px;
+}
+
+.logo{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.hero{
+    padding:60px 20px;
+}
+
+.hero h1{
+    font-size:42px;
+    line-height:1.2;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+.button{
+    width:220px;
+    text-align:center;
+}
+
+.cards{
+    padding:20px;
+}
+
+.card{
+    width:100%;
+    max-width:340px;
+}
+
+}){
 
 header{
     flex-direction:column;
