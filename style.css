@@ -160,3 +160,7 @@ input{
     font-size:18px;
     text-align:center;
 }
+.card-link{
+    text-decoration:none;
+    color:white;
+}
