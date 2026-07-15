@@ -140,3 +140,18 @@ nav a{
 }
 
 }
+@media (max-width:768px){
+
+nav{
+    display:none;
+}
+
+nav.show{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+    margin-top:15px;
+}
+
+}
