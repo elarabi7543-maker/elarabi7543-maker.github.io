@@ -62,7 +62,36 @@ nav a:hover{
     text-align:center;
     padding:40px 20px;
 }
+.capcut-hero{
+    background:
+    linear-gradient(rgba(15,23,42,.55),rgba(15,23,42,.55)),
+    url("file_00000000b7c8720a81c86e5440d9ca4d.png");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    min-height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:40px 20px;
+}
 
+.capcut-hero h1{
+    font-size:56px;
+    margin-bottom:15px;
+}
+
+.capcut-hero p{
+    max-width:650px;
+    margin:25px auto 35px;
+    font-size:22px;
+    line-height:1.8;
+    text-align:center;
+    color:#ffffff;
+    text-shadow:0 2px 8px rgba(0,0,0,.7);
+}
 .hero h1{
     font-size:56px;
     margin-bottom:15px;
