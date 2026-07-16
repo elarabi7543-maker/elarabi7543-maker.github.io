@@ -49,8 +49,8 @@ nav a:hover{
 
 .hero{
     background:
-    linear-gradient(rgba(15,23,42,.65),rgba(15,23,42,.65)),
-    url("image_1784123699800.jpeg");
+    linear-gradient(rgba(8,12,25,.35), rgba(8,12,25,.35)),
+    url("hero-ai.jpg");
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
