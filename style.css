@@ -67,12 +67,16 @@ nav a:hover{
     font-size:56px;
     margin-bottom:15px;
 }
-
 .hero p{
+    max-width:650px;
+    margin:25px auto 35px;
     font-size:22px;
-    color:#e2e8f0;
-    max-width:700px;
-    margin:auto;
+    line-height:1.8;
+    text-align:center;
+    color:#ffffff;
+    text-shadow:0 2px 8px rgba(0,0,0,.7);
+    font-weight:400;
+    letter-spacing:0.3px;
 }
 
 .button{
